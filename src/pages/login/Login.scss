@@ -1,0 +1,42 @@
+@import "../../styles/_variables.scss";
+
+.form-body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url("#{$app-url}/admin/image/login-bg.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+
+  & .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    background: rgba(255, 252, 252, 0.27);
+    box-shadow: 2px 9px 4px rgba(44, 39, 39, 0.56);
+    border-radius: 10px;
+
+    & .checkbox {
+      font-weight: 400;
+    }
+
+    & .form-floating:focus-within {
+      z-index: 2;
+    }
+
+    & input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    & input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  }
+}

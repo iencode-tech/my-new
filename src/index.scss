@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~react-toastify/scss/main";
+@import "~react-datepicker/src/stylesheets/datepicker.scss";
+@import "./styles/info_box.scss";
+@import "./styles/_variables.scss";
+
+.bg-app {
+  background-color: #33761f !important;
+}
+
+.btn-app {
+  background: $app-color !important;
+  color: white !important;
+
+  &:hover {
+    background: white !important;
+    border-color: $app-color !important;
+    color: $app-color !important;
+  }
+}
+
+.btn-outline-app {
+  background: white !important;
+  border-color: $app-color !important;
+  color: $app-color !important;
+
+  &:hover {
+    background: $app-color !important;
+    color: white !important;
+  }
+}

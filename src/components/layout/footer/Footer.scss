@@ -1,0 +1,14 @@
+footer {
+  &.border-app {
+    $borderWidth: 4px;
+    border: 0px;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-image: linear-gradient(to right, #cee84e 0%, #77ba33 100%) 27 / 4px 0
+      0 0 / 0 0 0 0 round;
+    border-image: -webkit-linear-gradient(left, #cee84e 0%, #77ba33 100%) 27 /
+      4px 0 0 0 / 0 0 0 0 round;
+    border-image: -moz-linear-gradient(left, #cee84e 0%, #77ba33 100%) 27 / 4px
+      0 0 0 / 0 0 0 0 round;
+  }
+}

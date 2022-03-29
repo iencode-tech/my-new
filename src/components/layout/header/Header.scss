@@ -1,0 +1,33 @@
+header {
+  &.border-app {
+    $borderWidth: 4px;
+    border: 0px;
+    border-bottom-width: $borderWidth;
+    border-bottom-style: solid;
+    border-image: linear-gradient(to right, #cee84e 0%, #77ba33 100%) 27 / 0 0
+      4px 0 / 0 0 0 0 round;
+    border-image: -webkit-linear-gradient(left, #cee84e 0%, #77ba33 100%) 27 / 0
+      0 4px 0 / 0 0 0 0 round;
+    border-image: -moz-linear-gradient(left, #cee84e 0%, #77ba33 100%) 27 / 0 0
+      4px 0 / 0 0 0 0 round;
+  }
+
+  /*
+ * Navbar
+ */
+
+  .navbar {
+    .navbar-brand {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      font-size: 1rem;
+      background-color: rgba(0, 0, 0, 0.25);
+      box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .navbar-toggler {
+      top: 0.25rem;
+      right: 1rem;
+    }
+  }
+}
